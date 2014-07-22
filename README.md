@@ -1,6 +1,6 @@
 # mkr-global
 This node module is intended to be installed globally. It provides a global command `mkr` that checks
-the current working directory for a local installation of node module [`mkr`](https://www.npmjs.org/package/mkr-global).
+the current working directory for a local installation of node module [`mkr`](https://www.npmjs.org/package/mkr).
 On success it triggers the CLI of the local installation. It's separated from the `mkr` to keep the global installation
 at a bare minimum, and to allow the use of different versions of `mkr` (project based).
 To report a bug or make a feature request please create [a new issue](https://github.com/lrsjng/mkr-global/issues/new).
