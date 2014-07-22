@@ -1,11 +1,15 @@
-# mkr-cmd
+# mkr-global
 This package is intended to be installed globally. It provides a global command `mkr` that checks
 the current working directory for a local installation of `mkr`. On success it triggers the CLI
-of the local installation.
+of the local installation. To report a bug or make a feature request please
+create [a new issue](https://github.com/lrsjng/mkr-global/issues/new).
 
-* to report a bug or make a feature request please create [a new issue](https://github.com/lrsjng/mkr-cmd/issues/new).
-* website: <http://larsjung.de/mkr/>
-* sources: <https://github.com/lrsjng/mkr-cmd>
+[[Web]](http://larsjung.de/mkr/) · [[GitHub]](https://github.com/lrsjng/mkr-global) · [[npm]](https://www.npmjs.org/package/mkr-global)
+
+
+## Install
+
+    > npm install -g mkr-global
 
 
 ## License
