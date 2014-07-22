@@ -4,7 +4,7 @@ the current working directory for a local installation of `mkr`. On success it t
 of the local installation. To report a bug or make a feature request please
 create [a new issue](https://github.com/lrsjng/mkr-global/issues/new).
 
-[[Web]](http://larsjung.de/mkr/) · [[GitHub]](https://github.com/lrsjng/mkr-global) · [[npm]](https://www.npmjs.org/package/mkr-global)
+References: [Web](http://larsjung.de/mkr/), [GitHub](https://github.com/lrsjng/mkr-global), [npm](https://www.npmjs.org/package/mkr-global)
 
 
 ## Install
