@@ -4,6 +4,7 @@
 [![Downloads](http://img.shields.io/npm/dm/mkr-global.svg?style=flat)](https://www.npmjs.org/package/mkr-global)
 [![License](http://img.shields.io/npm/l/mkr-global.svg?style=flat)](https://www.npmjs.org/package/mkr-global)
 [![Dependencies Status](http://img.shields.io/david/lrsjng/mkr-global.svg?style=flat)](https://david-dm.org/lrsjng/mkr-global)
+[![Build Status](http://img.shields.io/travis/lrsjng/mkr-global.svg?style=flat)](https://travis-ci.org/lrsjng/mkr-global)
 
 This node module is intended to be installed globally. It provides a global command `mkr` that checks
 the current working directory for a local installation of node module [`mkr`](https://www.npmjs.org/package/mkr).
