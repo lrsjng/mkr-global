@@ -1,6 +1,6 @@
 {
   "name": "mkr-global",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "global command for the mkr build tool",
   "homepage": "http://larsjung.de/mkr/",
   "bugs": "https://github.com/lrsjng/mkr-global/issues",
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "https://github.com/lrsjng/mkr-global.git"
   },
+  "preferGlobal": true,
   "bin": {
     "mkr": "./mkr-global.js"
   },
