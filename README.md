@@ -1,5 +1,9 @@
 # mkr-global
 
+[![web](http://img.shields.io/badge/web-larsjung.de/mkr-a0a060.svg?style=flat)](http://larsjung.de/mkr/)
+[![GitHub](http://img.shields.io/badge/GitHub-lrsjng/mkr--global-a0a060.svg?style=flat)](https://github.com/lrsjng/mkr-global)
+[![npm](http://img.shields.io/badge/npm-mkr--global-a0a060.svg?style=flat)](https://www.npmjs.org/package/mkr-global)
+<br>
 [![Version](http://img.shields.io/npm/v/mkr-global.svg?style=flat)](https://www.npmjs.org/package/mkr-global)
 [![Downloads](http://img.shields.io/npm/dm/mkr-global.svg?style=flat)](https://www.npmjs.org/package/mkr-global)
 [![License](http://img.shields.io/npm/l/mkr-global.svg?style=flat)](https://www.npmjs.org/package/mkr-global)
@@ -11,8 +15,6 @@ the current working directory for a local installation of node module [`mkr`](ht
 On success it triggers the CLI of the local installation. It's separated from `mkr` to keep the global installation
 at a bare minimum, and to allow the use of different versions of `mkr` (project based).
 To report a bug or make a feature request please create [a new issue](https://github.com/lrsjng/mkr-global/issues/new).
-
-References: [web](http://larsjung.de/mkr/), [GitHub](https://github.com/lrsjng/mkr-global), [npm](https://www.npmjs.org/package/mkr-global)
 
 
 ## Install
