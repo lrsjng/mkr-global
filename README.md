@@ -11,7 +11,7 @@
 [![Build Status](http://img.shields.io/travis/lrsjng/mkr-global.svg?style=flat)](https://travis-ci.org/lrsjng/mkr-global)
 
 This node module is intended to be installed globally. It provides a global command `mkr` that checks
-the current working directory for a local installation of node module [`mkr`](https://www.npmjs.org/package/mkr).
+the current working directory for a local installation of node module [`mkr`](https://github.com/lrsjng/mkr).
 On success it triggers the CLI of the local installation. It's separated from `mkr` to keep the global installation
 at a bare minimum, and to allow the use of different versions of `mkr` (project based).
 To report a bug or make a feature request please create [a new issue](https://github.com/lrsjng/mkr-global/issues/new).
