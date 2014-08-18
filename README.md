@@ -40,7 +40,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-[web]: http://larsjung.de/mkr-global/
+[web]: http://larsjung.de/mkr/
 [github]: https://github.com/lrsjng/mkr-global
 [npm]: https://www.npmjs.org/package/mkr-global
 [david]: https://david-dm.org/lrsjng/mkr-global
