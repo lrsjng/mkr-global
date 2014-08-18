@@ -46,7 +46,7 @@ THE SOFTWARE.
 [david]: https://david-dm.org/lrsjng/mkr-global
 [travis]: https://travis-ci.org/lrsjng/mkr-global
 
-[web-img]: http://img.shields.io/badge/web-larsjung.de/mkr--global-a0a060.svg?style=flat-square
+[web-img]: http://img.shields.io/badge/web-larsjung.de/mkr-a0a060.svg?style=flat-square
 [github-img]: http://img.shields.io/badge/GitHub-lrsjng/mkr--global-a0a060.svg?style=flat-square
 [npm-img]: http://img.shields.io/badge/npm-mkr--global-a0a060.svg?style=flat-square
 
