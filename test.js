@@ -7,11 +7,11 @@ var assert = require('assert');
 
 describe('mkr-global', function () {
 
-	before(function () {
+    before(function () {
 
-	});
+    });
 
-	beforeEach(function () {
+    beforeEach(function () {
 
-	});
+    });
 });
