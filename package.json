@@ -1,7 +1,7 @@
 {
   "name": "mkr-global",
-  "version": "0.2.2",
-  "description": "global command for the mkr build tool",
+  "version": "0.3.0",
+  "description": "command line trigger for the mkr build tool",
   "homepage": "http://larsjung.de/mkr/",
   "bugs": "https://github.com/lrsjng/mkr-global/issues",
   "author": "Lars Jung <lrsjng@gmail.com> (http://larsjung.de)",

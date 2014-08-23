@@ -3,7 +3,7 @@
 'use strict';
 
 
-var version = require('./package.json').version;
+var pkg = require('./package.json');
 var mkrpath = require('path').resolve('node_modules/mkr');
 var mkr;
 
@@ -12,8 +12,8 @@ try {
     mkr = require(mkrpath);
 } catch (err) {
     if (err.code === 'MODULE_NOT_FOUND' && err.message.indexOf(mkrpath) >= 0) {
-        process.stderr.write('mkr-global v' + version + '\n');
-        process.stderr.write('no local installation of "mkr" was found (expected at "./node_modules/mkr")\n');
+        process.stderr.write(pkg.name + ' v' + pkg.version + '\n' + pkg.description + '\n\n');
+        process.stderr.write('No local installation of "mkr"! (expected "./node_modules/mkr")\n');
         process.exit(1);
     }
     throw err;

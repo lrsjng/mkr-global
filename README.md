@@ -1,7 +1,7 @@
 # mkr-global
 
-[![web][web-img]][web] [![GitHub][github-img]][github] [![npm][npm-img]][npm]  
-[![Downloads][npm-dm-img]][npm] [![Dependencies Status][david-img]][david] [![Build Status][travis-img]][travis]
+[![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github] [![npm][npm-img]][npm]  
+[![version][npm-v-img]][npm] [![downloads][npm-dm-img]][npm] [![dependencies status][david-img]][david] [![build status][travis-img]][travis]
 
 This node module is intended to be installed globally. It provides a global
 command `mkr` that checks the current working directory for a local
@@ -46,13 +46,13 @@ THE SOFTWARE.
 [david]: https://david-dm.org/lrsjng/mkr-global
 [travis]: https://travis-ci.org/lrsjng/mkr-global
 
+[license-img]: http://img.shields.io/badge/license-MIT-a0a060.svg?style=flat-square
 [web-img]: http://img.shields.io/badge/web-larsjung.de/mkr-a0a060.svg?style=flat-square
 [github-img]: http://img.shields.io/badge/GitHub-lrsjng/mkr--global-a0a060.svg?style=flat-square
 [npm-img]: http://img.shields.io/badge/npm-mkr--global-a0a060.svg?style=flat-square
 
 [npm-v-img]: http://img.shields.io/npm/v/mkr-global.svg?style=flat-square
 [npm-dm-img]: http://img.shields.io/npm/dm/mkr-global.svg?style=flat-square
-[npm-l-img]: http://img.shields.io/npm/l/mkr-global.svg?style=flat-square
 [david-img]: http://img.shields.io/david/lrsjng/mkr-global.svg?style=flat-square
 [travis-img]: http://img.shields.io/travis/lrsjng/mkr-global.svg?style=flat-square
 
