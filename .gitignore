@@ -1,3 +1,4 @@
 local
 node_modules
+!test/assets/broken-dummy/node_modules
 !test/assets/dummy/node_modules
