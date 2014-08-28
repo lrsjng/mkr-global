@@ -1,6 +1,6 @@
 {
   "name": "mkr-global",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "command line trigger for the mkr build tool",
   "homepage": "http://larsjung.de/mkr/",
   "bugs": "https://github.com/lrsjng/mkr-global/issues",
@@ -15,12 +15,12 @@
     "mkr": "./mkr-global.js"
   },
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha --recursive test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "mocha": "~1.21.0"
+    "mocha": "~1.21.0",
+    "q": "~1.0.1"
   },
   "engines": {
     "node": ">=0.10"
