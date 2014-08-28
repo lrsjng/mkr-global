@@ -3,12 +3,10 @@
 [![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github] [![npm][npm-img]][npm]  
 [![version][npm-v-img]][npm] [![downloads][npm-dm-img]][npm] [![dependencies status][gemnasium-img]][gemnasium] [![build status][travis-img]][travis]
 
-This node module is intended to be installed globally. It provides a global
-command `mkr` that checks the current working directory for a local
-installation of node module [`mkr`][mkr]. On success it triggers the CLI of
-the local installation. It's separated from `mkr` to keep the global
-installation at a bare minimum, and to allow the use of different versions of
-`mkr` (project based).
+Global command line trigger for the [mkr][web] build tool. This node module is
+intended to be installed globally. It provides a command `mkr` that checks the
+current working directory for a local installation of mkr. On success it
+triggers the CLI of the local installation.
 
 
 ## Install
@@ -48,12 +46,10 @@ THE SOFTWARE.
 
 [license-img]: http://img.shields.io/badge/license-MIT-a0a060.svg?style=flat-square
 [web-img]: http://img.shields.io/badge/web-larsjung.de/mkr-a0a060.svg?style=flat-square
-[github-img]: http://img.shields.io/badge/GitHub-lrsjng/mkr--global-a0a060.svg?style=flat-square
+[github-img]: http://img.shields.io/badge/github-lrsjng/mkr--global-a0a060.svg?style=flat-square
 [npm-img]: http://img.shields.io/badge/npm-mkr--global-a0a060.svg?style=flat-square
 
 [npm-v-img]: http://img.shields.io/npm/v/mkr-global.svg?style=flat-square
 [npm-dm-img]: http://img.shields.io/npm/dm/mkr-global.svg?style=flat-square
 [gemnasium-img]: http://img.shields.io/gemnasium/lrsjng/mkr-global.svg?style=flat-square
 [travis-img]: http://img.shields.io/travis/lrsjng/mkr-global.svg?style=flat-square
-
-[mkr]: https://github.com/lrsjng/mkr
