@@ -59,7 +59,7 @@ describe('mkr-global', function () {
             assert.ok(err.code !== 0);
             assert.strictEqual(err.killed, false);
             assert.strictEqual(stdout, '');
-            assert.ok(/has no method 'cli'/i.test(stderr));
+            assert.ok(stderr !== '');
             done();
         });
     });
