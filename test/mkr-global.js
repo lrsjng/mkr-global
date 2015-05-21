@@ -1,14 +1,10 @@
-/*jshint node: true */
-/*global describe, before, beforeEach, it */
-
-
 var assert = require('assert');
 var child_process = require('child_process');
 var path = require('path');
 
 function escape(arg) {
 
-    return "'" + arg.replace(/[^\\]'/g, function (match) { return match[0] + '\\\''; }) + "'";
+    return '\'' + arg.replace(/[^\\]'/g, function (match) { return match[0] + '\\\''; }) + '\'';
 }
 
 var root = path.resolve(__dirname, '..');
