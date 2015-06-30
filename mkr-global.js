@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 'use strict';
 
-
 var pkg = require('./package.json');
 var mkrpath = require('path').resolve('node_modules/mkr');
 var mkr;
