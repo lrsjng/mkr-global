@@ -1,10 +1,10 @@
 {
   "name": "mkr-global",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Global command line trigger for the mkr build tool.",
-  "homepage": "http://larsjung.de/mkr/",
+  "homepage": "https://larsjung.de/mkr/",
   "bugs": "https://github.com/lrsjng/mkr-global/issues",
-  "author": "Lars Jung <lrsjng@gmail.com> (http://larsjung.de)",
+  "author": "Lars Jung <lrsjng@gmail.com> (https://larsjung.de)",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,14 +15,16 @@
     "mkr": "./mkr-global.js"
   },
   "scripts": {
-    "test": "mocha"
+    "lint": "eslint .",
+    "test": "node test",
+    "precommit": "npm run -s lint && npm run -s test"
   },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "eslint": "5.16.0",
+    "scar": "1.6.0"
   },
   "engines": {
-    "node": ">=0.10",
-    "iojs": ">=1.0.0"
+    "node": ">=8.0.0"
   }
 }
