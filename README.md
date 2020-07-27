@@ -1,7 +1,7 @@
 # mkr-global
 
 [![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github] [![npm][npm-img]][npm]  
-[![version][npm-v-img]][npm] [![downloads][npm-dm-img]][npm] [![build status][travis-img]][travis]
+[![version][npm-v-img]][npm] [![downloads][npm-dm-img]][npm]
 
 Global command line trigger for the [mkr][web] build tool. This node module is
 intended to be installed globally. It provides a command `mkr` that checks the
@@ -12,7 +12,7 @@ triggers the CLI of the local installation.
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2019 Lars Jung (https://larsjung.de)
+Copyright (c) 2020 Lars Jung (https://larsjung.de)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -36,7 +36,6 @@ THE SOFTWARE.
 [web]: https://larsjung.de/mkr/
 [github]: https://github.com/lrsjng/mkr-global
 [npm]: https://www.npmjs.org/package/mkr-global
-[travis]: https://travis-ci.org/lrsjng/mkr-global
 
 [license-img]: https://img.shields.io/badge/license-MIT-a0a060.svg?style=flat-square
 [web-img]: https://img.shields.io/badge/web-larsjung.de/mkr-a0a060.svg?style=flat-square
@@ -45,4 +44,3 @@ THE SOFTWARE.
 
 [npm-v-img]: https://img.shields.io/npm/v/mkr-global.svg?style=flat-square
 [npm-dm-img]: https://img.shields.io/npm/dm/mkr-global.svg?style=flat-square
-[travis-img]: https://img.shields.io/travis/lrsjng/mkr-global.svg?style=flat-square
